@@ -15,6 +15,9 @@ namespace DOTSTemplate
             Container.BindInterfacesTo<Database>()
                 .FromInstance(_database)
                 .AsSingle();
+            Container.BindInterfacesTo<GameService>()
+                .AsSingle()
+                .NonLazy();
         }
     }
 }

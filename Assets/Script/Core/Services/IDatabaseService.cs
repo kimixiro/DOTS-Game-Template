@@ -2,6 +2,6 @@
 {
     public interface IDatabaseService
     {
-       
+        LevelDefinition[] Levels { get; }
     }
 }
