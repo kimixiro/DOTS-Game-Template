@@ -87,8 +87,17 @@ Unity Package
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-    - [ ] Nested Feature
+- [x] Installer
+- [x] Services
+- [x] Database
+- [x] StateMachines
+- [x] Shared
+- [x] Contacts
+- [x] Events
+- [ ] Triggers
+- [ ] Tweener
+- [ ] VisualStates
+- [ ] Bindings
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
