@@ -91,7 +91,8 @@ Unity Package
 - [x] Shared
 - [x] Contacts
 - [x] Events
-- [ ] Triggers
+- [x] Triggers
+- [ ] Task(Mission)
 - [ ] Tweener
 - [ ] VisualStates
 - [ ] Bindings
