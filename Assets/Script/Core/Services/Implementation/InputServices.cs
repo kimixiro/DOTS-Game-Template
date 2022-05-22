@@ -6,8 +6,10 @@ namespace DOTSTemplate
     {
         private readonly Controls _controls;
 
-        public Controls.PlayerActions playerActions => _controls.Player;
-        public Controls.DebugActions debugActions => _controls.Debug;
+        public Controls.DebugActions Debug => _controls.Debug;
+        public Controls.PlayerActions Player => _controls.Player;
+        public Controls.UIActions UI => _controls.UI;
+
 
         public InputServices()
         {

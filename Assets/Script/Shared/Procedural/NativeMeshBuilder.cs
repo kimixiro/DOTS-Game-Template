@@ -9,7 +9,7 @@ namespace DOTSTemplate.Procedural
 {
     public struct NativeMeshBuilder<TVertex> : IDisposable where TVertex : unmanaged
     {
-        private static FixedList4096Bytes<VertexAttributeDescriptor> staticAttributes;
+        private static List<VertexAttributeDescriptor> staticAttributes;
         
         public NativeList<TVertex> Vertices;
         public NativeList<uint> Indices;
@@ -36,7 +36,7 @@ namespace DOTSTemplate.Procedural
                 attrs.Add(c.ToDescriptor());
             }
             
-            staticAttributes = new FixedList4096Bytes<VertexAttributeDescriptor>();
+            staticAttributes = new List<VertexAttributeDescriptor>();
             for (var index = 0; index < attrs.Count; index++)
             {
                 var vertexAttributeDescriptor = attrs[index];
