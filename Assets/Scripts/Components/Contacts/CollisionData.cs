@@ -2,7 +2,7 @@
 using Unity.Collections;
 using Unity.Mathematics;
 
-namespace DOTSTemplate.Contacts
+namespace DOTSTemplate
 {
     public struct CollisionData
     {

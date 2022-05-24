@@ -55,8 +55,8 @@ namespace DOTSTemplate
             lineRenderer.positionCount = points.Length;
             lineRenderer.SetPositions(points.AsArray().Reinterpret<Vector3>());
             
-            conversionSystem.AddHybridComponent(lineRenderer);
-            conversionSystem.AddHybridComponent(this);
+            conversionSystem.CreateAdditionalEntity(lineRenderer);
+            conversionSystem.CreateAdditionalEntity(this);
         }
     }
 }

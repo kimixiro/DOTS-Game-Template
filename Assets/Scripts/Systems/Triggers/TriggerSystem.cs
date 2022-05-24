@@ -1,4 +1,4 @@
-using DOTSTemplate.Contacts;
+using DOTSTemplate;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;

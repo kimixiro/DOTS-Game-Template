@@ -27,8 +27,8 @@ namespace DOTSTemplate
         
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
         {
-            conversionSystem.AddHybridComponent(GetComponent<ParticleSystem>());
-            conversionSystem.AddHybridComponent(this);
-        } 
+            conversionSystem.CreateAdditionalEntity(GetComponent<ParticleSystem>());
+            conversionSystem.CreateAdditionalEntity(this);
+        }
     }
 }

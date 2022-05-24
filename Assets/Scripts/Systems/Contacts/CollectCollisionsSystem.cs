@@ -6,13 +6,12 @@ using Unity.Mathematics;
 using Unity.Physics;
 using Unity.Physics.Systems;
 
-namespace DOTSTemplate.Contacts
+namespace DOTSTemplate
 {
     [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
     [UpdateAfter(typeof(StepPhysicsWorld))]
     public partial class CollectCollisionsSystem : SystemBase
     {
-        
         private BuildPhysicsWorld buildPhysicsWorld;
         private StepPhysicsWorld stepPhysicsWorld;
 
