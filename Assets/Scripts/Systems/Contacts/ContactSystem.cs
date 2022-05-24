@@ -2,7 +2,7 @@ using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
 
-namespace DOTSTemplate
+namespace DOTSTemplate.Contacts
 {
     [UpdateInGroup(typeof(SimulationSystemGroup))]
     [UpdateAfter(typeof(FixedStepSimulationSystemGroup))]

@@ -1,6 +1,6 @@
 using Unity.Entities;
 
-namespace DOTSTemplate
+namespace DOTSTemplate.Contacts
 {
     [UpdateInGroup(typeof(PresentationSystemGroup), OrderFirst = true)]
     public partial class RegisterNewContactSystem : SystemBase
@@ -12,7 +12,7 @@ namespace DOTSTemplate
             base.OnCreate();
             contactSystem = World.GetOrCreateSystem<ContactSystem>();
         }
-
+        
         protected override void OnUpdate()
         {
             var contacts = contactSystem.Contacts;

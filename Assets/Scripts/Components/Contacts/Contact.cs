@@ -1,6 +1,6 @@
 ﻿using Unity.Entities;
 
-namespace DOTSTemplate
+namespace DOTSTemplate.Contacts
 {
     public struct Contact : IComponentData
     {

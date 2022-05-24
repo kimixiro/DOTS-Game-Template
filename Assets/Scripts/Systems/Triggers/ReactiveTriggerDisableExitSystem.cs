@@ -1,4 +1,4 @@
-using DOTSTemplate;
+using DOTSTemplate.Contacts;
 using Unity.Entities;
 
 namespace DOTSTemplate
